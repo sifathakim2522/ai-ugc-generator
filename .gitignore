@@ -1,0 +1,21 @@
+node_modules/
+dist/
+.freebuff/
+
+# Environment files
+.env
+.env.local
+.env.*.local
+
+# Editor directories and files
+.vscode/
+.idea
+.DS_Store
+
+# Local caches, uploads, and publishing checkout
+.vite/
+server/public/uploads/
+.publish-github/
+BACKEND-PROGRESS.md
+.env.*
+!.env.example

@@ -1,0 +1,33 @@
+{
+  "name": "freebuff-server",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "npm run build && node dist/index.js",
+    "dev:watch": "tsx watch src/index.ts",
+    "build": "tsc",
+    "start": "node dist/index.js"
+  },
+  "dependencies": {
+    "@aws-sdk/client-s3": "^3.1120.0",
+    "@clerk/backend": "^2.3.0",
+    "@clerk/express": "^2.1.63",
+    "@fal-ai/client": "^1.10.1",
+    "@huggingface/inference": "^4.13.28",
+    "@prisma/client": "^6.12.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.5.0",
+    "express": "^5.1.0",
+    "multer": "^2.2.0",
+    "svix": "^2.1.0"
+  },
+  "devDependencies": {
+    "@types/cors": "^2.8.17",
+    "@types/express": "^5.0.6",
+    "@types/multer": "^2.2.0",
+    "@types/node": "^24.10.1",
+    "prisma": "^6.12.0",
+    "tsx": "^4.19.4",
+    "typescript": "~5.9.3"
+  }
+}
